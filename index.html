@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Getting Started with Three.js</title>
-    <style>
-      body {
-        margin: 0;
-      }
-    </style>
-    <script type="importmap">
-			{
-				"imports": {
-					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
-          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
-        }
-			}
-		</script>
-  </head>
-  <body>
-    <script type="module" src="index.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/asset/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="/asset/img/avatar_black.png" alt="Profile Image" class="profile-image">
+            <h1>@notnguyeen</h1>
+            <p>Digital Marketing Agency</p>
+            <!-- <br> -->
+            <div class="social-links">
+                <a href="#"><img src="/asset/img/facebook.png" alt="Twitter"></a>
+                <a href="#"><img src="/asset/img/tiktok.png" alt="Instagram"></a>
+                <a href="#"><img src="/asset/img/tiktok.png" alt="Github"></a>
+                <a href="#"><img src="/asset/img/tiktok.png" alt="Dribbble"></a>
+            </div>
+        </div>
+
+        <!-- Simple Button Section
+        <div class="button simple-button">
+            <a href="#">Your Agency →</a>
+        </div> -->
+
+        <!-- Title Section -->
+        <div class="title">
+            <h2>Projects</h2>
+        </div>
+
+        <!-- Feature Button Section -->
+        <div class="button feature-button">
+            <a href="http://saigonsciencelab.com/">Saigon Science</a><br>
+            <p>The new waves of your brain</p>
+        </div>
+
+        <!-- Featured Image Section -->
+        <div class="featured-project">
+            <img src="/asset/img/saigonscience.jpg" alt="Project Image">
+            <p>saigonsciencelab.com</p>
+        </div>
+    </div>
+
+    <script src="/asset/js/script.js"></script>
+</body>
 </html>
