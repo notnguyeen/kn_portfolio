@@ -7,7 +7,7 @@
 .favicon {
       width: 16px;
       height: 16px;
-      border-radius: 50%;
+      /* border-radius: 50; */
 }
 
 body {
@@ -34,8 +34,8 @@ body {
 }
 
 .profile-image {
-    width: 80px;
-    border-radius: 50%;
+    width: 100px;
+    border-radius: 45%;
     margin-bottom: 10px;
 }
 
